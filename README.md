@@ -4,7 +4,7 @@
 
 # Said Kulmakov
 
-### Systems Architect · Creator of Semantic
+### Creator and Systems Architect of Semantic
 
 **Designing deterministic, verifier-first systems for reasoning,  
 controlled execution and evidence-driven AI-agent governance.**
