@@ -2,7 +2,7 @@
 
 # Said Kulmakov
 
-### Systems Architect · Industrial Engineer · Creator of Semantic
+### Systems Architect · Creator of Semantic
 
 **Designing deterministic, verifier-first systems for reasoning,  
 controlled execution and evidence-driven AI-agent governance.**
@@ -16,7 +16,7 @@ controlled execution and evidence-driven AI-agent governance.**
 <br>
 
 [![Semantic](https://img.shields.io/badge/Flagship-Semantic-2563eb?style=for-the-badge)](https://github.com/skulmakov-oss/Semantic)
-[![Rust](https://img.shields.io/badge/Core-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![Quad Logic](https://img.shields.io/badge/Logic-N%20%2F%20F%20%2F%20T%20%2F%20S-0f766e?style=for-the-badge)](https://github.com/skulmakov-oss/Semantic)
 [![Verifier First](https://img.shields.io/badge/Execution-Verifier_First-7c3aed?style=for-the-badge)](https://github.com/skulmakov-oss/Semantic)
 
 </div>
@@ -120,6 +120,8 @@ These principles are applied across the ecosystem:
 - Evidence-backed engineering workflows
 - Semantic graph observability and deterministic replay
 - `no_std` runtime and systems architecture research
+
+My industrial engineering background keeps this work grounded in real systems: constraints, failure modes, observability, bounded operations and controlled recovery.
 
 ---
 
