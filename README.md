@@ -1,3 +1,5 @@
+<img width="2172" height="724" alt="ChatGPT Image 21 июл  2026 г , 02_49_13" src="https://github.com/user-attachments/assets/4dec10be-31a5-4600-ba4e-f5f89036ca29" />
+
 <div align="center">
 
 # Said Kulmakov
