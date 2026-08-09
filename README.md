@@ -66,7 +66,7 @@ Semantic treats uncertainty and contradiction as explicit computational states:
 | [**Prometheus**](https://github.com/skulmakov-oss/Prometheus) | Experimental Rust `no_std` operating-system foundation with deterministic event routing |
 | [**Admission Guardian**](https://github.com/skulmakov-oss/Admission-Guardian) | Local validation and admission boundary under active development |
 | [**Semantic TextMate Grammar**](https://github.com/skulmakov-oss/semantic-textmate-grammar) | Editor syntax support for the Semantic language |
-| [**Semantic-Agent**]([https://github.com/skulmakov-oss/Semantic-Agent)) | Policy-bound verified execution agent for the Semantic platform.
+| [**Semantic-Agent**]([https://github.com/skulmakov-oss/Semantic-Agent) | Policy-bound verified execution agent for the Semantic platform.
 
 ```mermaid
 flowchart TD
