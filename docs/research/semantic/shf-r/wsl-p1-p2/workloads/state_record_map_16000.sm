@@ -1,0 +1,12 @@
+record Ctx { syms: Map(text, i32), next_id: i32 }
+fn main() {
+    let mut c: Ctx = Ctx { syms: map_empty(), next_id: 0 };
+    let mut i: i32 = 0;
+    while i < 16000 {
+        c = c with { syms: map_set(c.syms, "s" + to_text(i), c.next_id), next_id: c.next_id + 1 };
+        i = i + 1;
+    }
+    assert(map_get(c.syms, "s15999", -1) == 15999);
+    assert(map_get(c.syms, "missing", -1) == -1);
+    return;
+}

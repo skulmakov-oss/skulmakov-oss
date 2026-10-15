@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "artifact_hash": "sha256:b6fc08f86f53b1979bd8e2c55f2d73a965afbc2fcd4ea107ce67c3ffd9c7a2fd",
+  "artifact_size_bytes": 768,
+  "producer": {
+    "compiler_name": "smc",
+    "compiler_version": "0.1.0",
+    "build_target": "x86_64-unknown-linux-gnu",
+    "source_fingerprint": "238916c4f73399e5",
+    "profile": "release",
+    "enabled_features": [
+      "DEBUG_SYMBOLS",
+      "DEFAULT",
+      "PROFILE_LOGOS",
+      "PROFILE_RUST",
+      "STD"
+    ]
+  },
+  "source": {
+    "package_name": null,
+    "package_version": null,
+    "entry_file": "lex_calls_16000.sm",
+    "source_hash": "sha256:be0c2cfc2bc812713f7805f099d8acfbb10acda1eb4b844215369aaa18f228d3",
+    "manifest_hash": null
+  },
+  "contract": {
+    "semcode_format": "SEMCOD22",
+    "semcode_epoch": 0,
+    "semcode_revision": 23,
+    "verifier_profile": "verifier-canonical-v1",
+    "runtime_profile": "deterministic-v1",
+    "stdlib_version": "semantic-stdlib-v1",
+    "diagnostic_contract": "semantic.diagnostics"
+  }
+}

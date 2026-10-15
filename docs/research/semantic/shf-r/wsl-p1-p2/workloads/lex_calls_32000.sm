@@ -1,0 +1,19 @@
+fn is_digit(b: u32) -> bool { return b >= 48u32 && b <= 57u32; }
+fn main() {
+    let src: text = fs_read_text("input_32000.txt");
+    let n: u32 = text_len(src);
+    let mut i: u32 = 0u32;
+    let mut digits: i32 = 0;
+    let mut toks: Sequence(i32) = [];
+    while i < n {
+        match text_byte_at(src, i) {
+            Option::Some(b) => {
+                if is_digit(b) { digits = digits + 1; toks = push(toks, 1); }
+            }
+            Option::None => { assert(false); }
+        }
+        i = i + 1u32;
+    }
+    assert(digits == 5332);
+    return;
+}

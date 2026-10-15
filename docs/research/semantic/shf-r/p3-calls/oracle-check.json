@@ -1,0 +1,9 @@
+{
+  "source_assertion": "assert(digits == 5332);",
+  "independent_input_digit_count": 5332,
+  "candidate_exit": 0,
+  "candidate_outcome": "ok",
+  "standalone_o0_artifacts_equal": true,
+  "vm_only_timing": "NOT MEASURED",
+  "maximum_200m_calls_executed": false
+}

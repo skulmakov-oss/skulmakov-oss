@@ -1,0 +1,15 @@
+{
+  "label": "api-check",
+  "command": [
+    "cargo",
+    "test",
+    "--release",
+    "--locked",
+    "--offline",
+    "--test",
+    "public_api_contracts"
+  ],
+  "exit": 0,
+  "seconds": 159.66947584700006,
+  "target": "/home/WSL_USER/shf-p3-20261016/target"
+}

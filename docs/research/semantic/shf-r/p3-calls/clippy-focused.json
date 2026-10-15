@@ -1,0 +1,21 @@
+{
+  "label": "clippy-focused",
+  "command": [
+    "cargo",
+    "clippy",
+    "--release",
+    "--locked",
+    "--offline",
+    "-p",
+    "sm-runtime-core",
+    "-p",
+    "smc-cli",
+    "--all-targets",
+    "--",
+    "-D",
+    "warnings"
+  ],
+  "exit": 0,
+  "seconds": 322.2589704539996,
+  "target": "/home/WSL_USER/shf-p3-20261016/target"
+}

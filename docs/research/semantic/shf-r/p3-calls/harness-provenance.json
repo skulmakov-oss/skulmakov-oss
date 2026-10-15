@@ -1,0 +1,7 @@
+{
+  "checkout_sha256": "3e3167cecf46eeaacc1a8f0d6fe820fa8867b330358cb2262a56122a14c1ee2c",
+  "base_sha256": "a7c4a21b92cdbdbdcb23e77f192c7685ba394daba556bcce3d3b33539c6a9588",
+  "checkout_crlf_count": 205,
+  "base_crlf_count": 0,
+  "equal_after_crlf_normalization": true
+}

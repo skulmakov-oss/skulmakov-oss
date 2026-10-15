@@ -1,0 +1,13 @@
+{
+  "source_sha": "188dec7eddfafaab5926af2d30f528bfe3d89a2c",
+  "source_path": "crates/sm-vm/src/semcode_vm.rs",
+  "generator": "benchmark_multi_field_state_scaling_sweep make_state5/make_state10",
+  "files": [
+    "/home/WSL_USER/shf-r-comparison-20261015/workloads/state5_8000.sm",
+    "/home/WSL_USER/shf-r-comparison-20261015/workloads/state5_16000.sm",
+    "/home/WSL_USER/shf-r-comparison-20261015/workloads/state5_32000.sm",
+    "/home/WSL_USER/shf-r-comparison-20261015/workloads/state10_8000.sm",
+    "/home/WSL_USER/shf-r-comparison-20261015/workloads/state10_16000.sm",
+    "/home/WSL_USER/shf-r-comparison-20261015/workloads/state10_32000.sm"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checked": 5778,
+  "mismatches": [
+    {
+      "manifest": "harness-hashes.json",
+      "entry": "gen_original.py",
+      "expected": "4e511b001600aabfd26796eadfa76a07ec43ddc8bb0c0cf2a88860ae236988ec",
+      "actual": "MISSING"
+    }
+  ],
+  "native_recovery": {
+    "source": "wsl-p1-p2/gen_original.py",
+    "sha256": "4e511b001600aabfd26796eadfa76a07ec43ddc8bb0c0cf2a88860ae236988ec",
+    "result": "exact match; recovered read-only, original Windows export unchanged"
+  }
+}

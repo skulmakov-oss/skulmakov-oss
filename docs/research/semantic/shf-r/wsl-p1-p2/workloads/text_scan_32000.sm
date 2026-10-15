@@ -1,0 +1,15 @@
+fn main() {
+    let src: text = fs_read_text("input_32000.txt");
+    let n: u32 = text_len(src);
+    let mut i: u32 = 0u32;
+    let mut fours: i32 = 0;
+    while i < n {
+        match text_byte_at(src, i) {
+            Option::Some(b) => { if b == 52u32 { fours = fours + 1; } }
+            Option::None => { assert(false); }
+        }
+        i = i + 1u32;
+    }
+    assert(fours == 2666);
+    return;
+}

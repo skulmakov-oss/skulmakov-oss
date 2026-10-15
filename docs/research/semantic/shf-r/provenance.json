@@ -1,0 +1,84 @@
+[
+  {
+    "number": 2041,
+    "title": "architecture(map): define persistent storage contract and actual VM scaling evidence",
+    "url": "https://github.com/skulmakov-oss/Semantic/pull/2041",
+    "headRefOid": "b189c100023295bd3aa4a020d5079ea5beab3a09",
+    "baseRefOid": "94c5c50d16c3f2efc7691456755461bedae83b18",
+    "state": "OPEN",
+    "commits": [
+      {
+        "authoredDate": "2026-10-14T11:26:19Z",
+        "committedDate": "2026-10-14T11:26:19Z",
+        "messageBody": "",
+        "messageHeadline": "docs(vm): propose structurally shared Map storage (SEM-RVM-001)",
+        "oid": "37a9dd24b55ebc047ffbc79ae58ceb96ee1d9f24"
+      },
+      {
+        "authoredDate": "2026-10-14T15:11:53Z",
+        "committedDate": "2026-10-14T15:11:53Z",
+        "messageBody": "\u0420\u0406\u0420\u201a\u0412\u00a6vidence",
+        "messageHeadline": "docs(map): define persistent storage contract and actual VM scaling e\u0420\u0406\u0420\u201a\u0412\u00a6",
+        "oid": "7922866ad5a4ec517745d5d0e72bcaa01dbd899c"
+      },
+      {
+        "authoredDate": "2026-10-14T16:03:38Z",
+        "committedDate": "2026-10-14T16:03:38Z",
+        "messageBody": "\u0420\u0406\u0420\u201a\u0412\u00a6one identity",
+        "messageHeadline": "test(map): make prototype reproduction paths explicit and validate cl\u0420\u0406\u0420\u201a\u0412\u00a6",
+        "oid": "b189c100023295bd3aa4a020d5079ea5beab3a09"
+      }
+    ]
+  },
+  {
+    "number": 2042,
+    "title": "perf(sm-vm): eliminate redundant Map copies (SEM-RVM-001)",
+    "url": "https://github.com/skulmakov-oss/Semantic/pull/2042",
+    "headRefOid": "8db588bea6395839eb543aee453c2b2657e856d5",
+    "baseRefOid": "94c5c50d16c3f2efc7691456755461bedae83b18",
+    "state": "OPEN",
+    "commits": [
+      {
+        "authoredDate": "2026-10-14T11:26:09Z",
+        "committedDate": "2026-10-14T11:26:09Z",
+        "messageBody": "",
+        "messageHeadline": "perf(sm-vm): eliminate redundant Map copies (SEM-RVM-001)",
+        "oid": "8db588bea6395839eb543aee453c2b2657e856d5"
+      }
+    ]
+  },
+  {
+    "number": 2046,
+    "title": "SHF-P2 design: record-field consumption for compiler state (docs only)",
+    "url": "https://github.com/skulmakov-oss/Semantic/pull/2046",
+    "headRefOid": "090ad0127c03e7b9c80ed0f3f581de05c1918b6f",
+    "baseRefOid": "94c5c50d16c3f2efc7691456755461bedae83b18",
+    "state": "OPEN",
+    "commits": [
+      {
+        "authoredDate": "2026-10-14T12:48:08Z",
+        "committedDate": "2026-10-14T12:48:08Z",
+        "messageBody": "\u0420\u0406\u0420\u201a\u0412\u00a6e (SHF-P2)\n\nTechnical design only (SHF-R #2030 finding F2, research track #2037): why\n`st = st with { toks: push(st.toks, v) }` stays quadratic after SHF-P3,\nthe verified bytecode root cause, rejected options (syntactic pattern match,\nArc record slots, new opcodes, language change) and the proposed\nliveness-based consumption (E1 register last-use release, E2 field-sensitive\nlocal consumption) with its proof obligations and qualification plan.\n\nNo implementation; requires a separate OWNER IMPLEMENTATION GO.\n\nRefs #2030\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01KgriS4X22yB8UZtnoqJVTi",
+        "messageHeadline": "docs(architecture): record-field consumption design for compiler stat\u0420\u0406\u0420\u201a\u0412\u00a6",
+        "oid": "090ad0127c03e7b9c80ed0f3f581de05c1918b6f"
+      }
+    ]
+  },
+  {
+    "number": 2049,
+    "title": "feat(cli): add bounded Calls override for trusted compiler workloads (P3)",
+    "url": "https://github.com/skulmakov-oss/Semantic/pull/2049",
+    "headRefOid": "64ca9087c83bf7ac504899246c1e7c8b06062d0f",
+    "baseRefOid": "188dec7eddfafaab5926af2d30f528bfe3d89a2c",
+    "state": "OPEN",
+    "commits": [
+      {
+        "authoredDate": "2026-10-15T20:46:08Z",
+        "committedDate": "2026-10-15T20:46:08Z",
+        "messageBody": "",
+        "messageHeadline": "feat(cli): add bounded Calls override for trusted compiler workloads",
+        "oid": "64ca9087c83bf7ac504899246c1e7c8b06062d0f"
+      }
+    ]
+  }
+]

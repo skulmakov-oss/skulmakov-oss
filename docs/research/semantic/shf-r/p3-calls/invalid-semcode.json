@@ -1,0 +1,14 @@
+[
+  {
+    "name": "main",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "verify error [UnsupportedVersion] @0x0000: unsupported SemCode header 'not SemC'\n"
+  },
+  {
+    "name": "p3",
+    "exit": 1,
+    "stdout": "",
+    "stderr": "verify error [UnsupportedVersion] @0x0000: unsupported SemCode header 'not SemC'\n"
+  }
+]
