@@ -1,0 +1,11 @@
+fn main() {
+    let mut t: (i32, i32) = (0, 0);
+    let mut i: i32 = 0;
+    while i < 16000 {
+        t = (t.0 + 1, t.1 + 2);
+        i = i + 1;
+    }
+    assert(t.0 == 16000);
+    assert(t.1 == 32000);
+    return;
+}

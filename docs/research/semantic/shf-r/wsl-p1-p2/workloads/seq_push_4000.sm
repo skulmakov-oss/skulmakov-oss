@@ -1,0 +1,7 @@
+fn main() {
+    let mut s: Sequence(i32) = [];
+    let mut i: i32 = 0;
+    while i < 4000 { s = push(s, i); i = i + 1; }
+    assert(len(s) == 4000);
+    return;
+}

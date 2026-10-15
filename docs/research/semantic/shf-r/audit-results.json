@@ -1,0 +1,12 @@
+{
+  "public_files_and_zip_members_scanned": true,
+  "credential_pattern_matches": 0,
+  "original_private_label_matches": 0,
+  "relative_links_pass": 18,
+  "unique_remote_links_http_200": 47,
+  "numeric_cells_and_json_numeric_fields_preserved": true,
+  "environment_snapshots": "excluded",
+  "source_bundle": "hash and logical owner-controlled location only",
+  "production_patches": "excluded",
+  "historical_fixture_execution": "NOT RUN; inert archive"
+}

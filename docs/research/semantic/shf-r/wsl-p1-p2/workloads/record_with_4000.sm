@@ -1,0 +1,11 @@
+record St { pos: i32, line: i32, col: i32, count: i32 }
+fn main() {
+    let mut st: St = St { pos: 0, line: 1, col: 0, count: 0 };
+    let mut i: i32 = 0;
+    while i < 4000 {
+        st = st with { pos: st.pos + 1, col: st.col + 1, count: st.count + 1 };
+        i = i + 1;
+    }
+    assert(st.count == 4000);
+    return;
+}

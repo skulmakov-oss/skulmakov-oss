@@ -1,0 +1,15 @@
+{
+  "label": "green",
+  "command": [
+    "cargo",
+    "test",
+    "--release",
+    "--locked",
+    "--offline",
+    "--test",
+    "shf_r_execution_envelope"
+  ],
+  "exit": 0,
+  "seconds": 196.47640949499998,
+  "target": "/home/WSL_USER/shf-p3-20261016/target"
+}

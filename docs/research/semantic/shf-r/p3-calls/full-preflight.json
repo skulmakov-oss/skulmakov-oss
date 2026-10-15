@@ -1,0 +1,4 @@
+{
+  "exit": 0,
+  "command": "pwsh -File scripts/admission_guard.ps1 -FullPreflight"
+}

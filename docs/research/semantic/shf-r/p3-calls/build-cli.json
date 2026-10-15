@@ -1,0 +1,15 @@
+{
+  "label": "build-cli",
+  "command": [
+    "cargo",
+    "build",
+    "--release",
+    "--locked",
+    "--offline",
+    "-p",
+    "smc-cli"
+  ],
+  "exit": 0,
+  "seconds": 145.92462836999994,
+  "target": "/home/WSL_USER/shf-p3-20261016/target"
+}

@@ -1,0 +1,10 @@
+fn main() {
+    let mut m: Map(i32, i32) = map_empty();
+    let mut i: i32 = 0;
+    while i < 4000 { m = map_set(m, i, i); i = i + 1; }
+    let mut acc: i32 = 0;
+    let mut j: i32 = 0;
+    while j < 4000 { if map_contains(m, j) { acc = acc + map_get(m, j, 0) - j + 1; } j = j + 1; }
+    assert(acc == 4000);
+    return;
+}

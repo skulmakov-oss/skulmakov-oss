@@ -1,0 +1,17 @@
+{
+  "label": "api-update",
+  "command": [
+    "env",
+    "SM_UPDATE_PUBLIC_API_SNAPSHOTS=1",
+    "cargo",
+    "test",
+    "--release",
+    "--locked",
+    "--offline",
+    "--test",
+    "public_api_contracts"
+  ],
+  "exit": 0,
+  "seconds": 169.380257895,
+  "target": "/home/WSL_USER/shf-p3-20261016/target"
+}

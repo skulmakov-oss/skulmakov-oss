@@ -1,0 +1,15 @@
+{
+  "command": [
+    "cargo",
+    "test",
+    "--release",
+    "--locked",
+    "--offline",
+    "-p",
+    "sm-vm",
+    "e2_fast_path_activation_and_moves_count",
+    "--",
+    "--nocapture"
+  ],
+  "exit": 0
+}

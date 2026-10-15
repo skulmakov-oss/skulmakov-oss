@@ -1,0 +1,9 @@
+[package]
+name = "rvm-storage-prototype"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+im = "=15.1.0"
+sm-vm = { path = "../storage-proposal/crates/sm-vm" }

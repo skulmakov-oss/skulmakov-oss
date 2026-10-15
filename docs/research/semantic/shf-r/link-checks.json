@@ -1,0 +1,284 @@
+{
+  "relative": [
+    {
+      "source": "README.md",
+      "target": "pr-2041/docs/architecture/map_storage_rvm002_evidence.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "pr-2041/docs/architecture/map_storage_rvm002_contract_proposal.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "pr-2042/docs/architecture/map_copy_elision_rvm001.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "pr-2046/docs/architecture/vm_record_field_consumption_design.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "wsl-p1-p2/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "wsl-p1-p2/METHODOLOGY.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "wsl-p1-p2/summary.csv",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "p3-calls/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "p3-calls/AB.json",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "p3-calls/oracle-check.json",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "source-map.json",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "raw-records.zip",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "INTEGRITY.json",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "source-map.json",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "omissions.json",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "DISCLOSURE.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "VERIFY.md",
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "target": "verify.py",
+      "status": "PASS"
+    }
+  ],
+  "remote": [
+    {
+      "url": "https://claude.ai/code",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/bodil/im-rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/actions/runs/38557427004/job/115829926965",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/actions/runs/38816940483",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/actions/runs/38816945931/job/116703910126",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/actions/runs/38816948151",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/actions/runs/38816948192/job/116703911834",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/actions/runs/38816948266",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/090ad0127c03e7b9c80ed0f3f581de05c1918b6f/docs/architecture/vm_record_field_consumption_design.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/188dec7eddfafaab5926af2d30f528bfe3d89a2c/docs/architecture/vm_record_field_consumption_design.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/64ca9087c83bf7ac504899246c1e7c8b06062d0f/docs/spec/cli.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/64ca9087c83bf7ac504899246c1e7c8b06062d0f/docs/spec/quotas.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/8db588bea6395839eb543aee453c2b2657e856d5/crates/sm-vm/examples/map_cost.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/8db588bea6395839eb543aee453c2b2657e856d5/docs/architecture/map_copy_elision_rvm001.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/8db588bea6395839eb543aee453c2b2657e856d5/tests/fixtures/rvm001/paired_vm.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/docs/architecture/map_storage_rvm001_proposal.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/docs/architecture/map_storage_rvm002_contract_proposal.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/docs/architecture/map_storage_rvm002_evidence.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm001_storage/prototype.lock",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm001_storage/prototype.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm001_storage/storage.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/artifact_identities.json",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/compatible_binary_identities.json",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/compatible_scale.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/compiler_prototype.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/compiler_reference.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/historical_binary_identities.json",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/historical_main_scale.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/map_scale.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/map_snapshot.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/map_value.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/map_value_vm.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/prepare_vm_prototype.py",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/prototype_large.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/replacement_scale.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/snapshot_prototype.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/snapshot_reference.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/storage_check.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/storage_memory.csv",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/blob/b189c100023295bd3aa4a020d5079ea5beab3a09/tests/fixtures/rvm002/storage_memory.rs",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/issues/2030#issuecomment-6168428649",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/issues/2030#issuecomment-6168712552",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/pull/2041",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/pull/2042",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/pull/2046",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/skulmakov-oss/Semantic/pull/2049",
+      "status": 200
+    }
+  ]
+}

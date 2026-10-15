@@ -1,0 +1,1 @@
+fn main() { let m: Map(i32,i32)=map_empty(); let i:i32=0; while i < 16384 { m=map_set(m,i,i); i=i+1; } i = 0; while i < 16384 { m = map_set(m,i,i+1); i=i+1; } assert(map_get(m,16383,-1)==16384); return; }

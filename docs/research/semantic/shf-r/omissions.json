@@ -1,0 +1,1574 @@
+[
+  {
+    "source": "rvm001-local/harness-base-rvm002.ps1",
+    "bytes": 11623,
+    "original_sha256": "a7c4a21b92cdbdbdcb23e77f192c7685ba394daba556bcce3d3b33539c6a9588",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "rvm001-local/semseed-O0.smc",
+    "bytes": 30185,
+    "original_sha256": "edad5ca66ea2cb668211498f2cccffa87bbe3a09f1c74e649e4005fed616d9e2",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/clone-1024.smc",
+    "bytes": 804,
+    "original_sha256": "db4e125586d8a631d451c7ebf1ca2d07ce09957daf3b474bc0eb352ba1e61e29",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/clone-128.smc",
+    "bytes": 804,
+    "original_sha256": "f1f9c8b2e1d602ca692752ad6cea83a9b04c5319b8af1ce7381394f1ea5ec371",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/clone-16.smc",
+    "bytes": 804,
+    "original_sha256": "6b183a4fbfd0d58426eb9d30d031a1328b9345486ba38a1eb60b3d6901eccfbd",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/contains-1024.smc",
+    "bytes": 804,
+    "original_sha256": "db4e125586d8a631d451c7ebf1ca2d07ce09957daf3b474bc0eb352ba1e61e29",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/contains-128.smc",
+    "bytes": 804,
+    "original_sha256": "f1f9c8b2e1d602ca692752ad6cea83a9b04c5319b8af1ce7381394f1ea5ec371",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/contains-16.smc",
+    "bytes": 804,
+    "original_sha256": "6b183a4fbfd0d58426eb9d30d031a1328b9345486ba38a1eb60b3d6901eccfbd",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/get-1024.smc",
+    "bytes": 1004,
+    "original_sha256": "16b7341e70d1669c4f790347455af99cda18de488bb77ac356cc2592bea9de3e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/get-128.smc",
+    "bytes": 1004,
+    "original_sha256": "161b0199e3d1f54909685616e6d5362b44b3fba08bc705e556a6bdab49bcad15",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/get-16.smc",
+    "bytes": 1004,
+    "original_sha256": "5329bd030e7cea653917215801733daab2bf0a163cdedc36fdcecd31a6f586e3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/insert-1024.smc",
+    "bytes": 1004,
+    "original_sha256": "27c87797e388213db005288d6b03f5caa9362ec8f9d38dda50a5b15607314f92",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/insert-128.smc",
+    "bytes": 1004,
+    "original_sha256": "2ea1b4b9f4c2deb35fec7317b70fe6b894abff31cd0da11c506e3a2cc4cdfa05",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/insert-16.smc",
+    "bytes": 1004,
+    "original_sha256": "f24c7401cdd875812461c647e07687fdb77ace2a65c2932574f95c3c9d7550ae",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/replace-1024.smc",
+    "bytes": 1004,
+    "original_sha256": "ac62c76668ea3f150b11ba2127821601be44dc85d9d889e96a47bdb3c73906c8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/replace-128.smc",
+    "bytes": 1004,
+    "original_sha256": "de55bbb19ed9b53077b80d3201af48955251e729053b5ee316bc1a2bec3f9a79",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/replace-16.smc",
+    "bytes": 1004,
+    "original_sha256": "d143acfebc85bb9c9d62f0fb4ab1f76ab72ecaaa717c49a33aaa04c124e3408f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/source-build-128.smc",
+    "bytes": 313,
+    "original_sha256": "066301554a1a34abf2c5ecacb14d1710626c50346f0c1812be051a45e450f56c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/source-build-16.smc",
+    "bytes": 313,
+    "original_sha256": "6abf062bbdb6f590c11a1a9e4d4e0975d0bc3bb375db9a0d7cecc7485248f895",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/baseline-inputs/source-build-512.smc",
+    "bytes": 313,
+    "original_sha256": "4d210c796c4b7d43d843be202bae54120ee276e577d8f144e9bda5a3831340a6",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/clone-1024.smc",
+    "bytes": 804,
+    "original_sha256": "db4e125586d8a631d451c7ebf1ca2d07ce09957daf3b474bc0eb352ba1e61e29",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/clone-128.smc",
+    "bytes": 804,
+    "original_sha256": "f1f9c8b2e1d602ca692752ad6cea83a9b04c5319b8af1ce7381394f1ea5ec371",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/clone-16.smc",
+    "bytes": 804,
+    "original_sha256": "6b183a4fbfd0d58426eb9d30d031a1328b9345486ba38a1eb60b3d6901eccfbd",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/contains-1024.smc",
+    "bytes": 804,
+    "original_sha256": "db4e125586d8a631d451c7ebf1ca2d07ce09957daf3b474bc0eb352ba1e61e29",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/contains-128.smc",
+    "bytes": 804,
+    "original_sha256": "f1f9c8b2e1d602ca692752ad6cea83a9b04c5319b8af1ce7381394f1ea5ec371",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/contains-16.smc",
+    "bytes": 804,
+    "original_sha256": "6b183a4fbfd0d58426eb9d30d031a1328b9345486ba38a1eb60b3d6901eccfbd",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/get-1024.smc",
+    "bytes": 1004,
+    "original_sha256": "16b7341e70d1669c4f790347455af99cda18de488bb77ac356cc2592bea9de3e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/get-128.smc",
+    "bytes": 1004,
+    "original_sha256": "161b0199e3d1f54909685616e6d5362b44b3fba08bc705e556a6bdab49bcad15",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/get-16.smc",
+    "bytes": 1004,
+    "original_sha256": "5329bd030e7cea653917215801733daab2bf0a163cdedc36fdcecd31a6f586e3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/insert-1024.smc",
+    "bytes": 1004,
+    "original_sha256": "27c87797e388213db005288d6b03f5caa9362ec8f9d38dda50a5b15607314f92",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/insert-128.smc",
+    "bytes": 1004,
+    "original_sha256": "2ea1b4b9f4c2deb35fec7317b70fe6b894abff31cd0da11c506e3a2cc4cdfa05",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/insert-16.smc",
+    "bytes": 1004,
+    "original_sha256": "f24c7401cdd875812461c647e07687fdb77ace2a65c2932574f95c3c9d7550ae",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/replace-1024.smc",
+    "bytes": 1004,
+    "original_sha256": "ac62c76668ea3f150b11ba2127821601be44dc85d9d889e96a47bdb3c73906c8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/replace-128.smc",
+    "bytes": 1004,
+    "original_sha256": "de55bbb19ed9b53077b80d3201af48955251e729053b5ee316bc1a2bec3f9a79",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/replace-16.smc",
+    "bytes": 1004,
+    "original_sha256": "d143acfebc85bb9c9d62f0fb4ab1f76ab72ecaaa717c49a33aaa04c124e3408f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/source-build-128.smc",
+    "bytes": 313,
+    "original_sha256": "066301554a1a34abf2c5ecacb14d1710626c50346f0c1812be051a45e450f56c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/source-build-16.smc",
+    "bytes": 313,
+    "original_sha256": "6abf062bbdb6f590c11a1a9e4d4e0975d0bc3bb375db9a0d7cecc7485248f895",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm001-local/candidate-inputs/source-build-512.smc",
+    "bytes": 313,
+    "original_sha256": "4d210c796c4b7d43d843be202bae54120ee276e577d8f144e9bda5a3831340a6",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/source.bundle",
+    "bytes": 22651189,
+    "original_sha256": "b2680ff3f4a3a518ecf6936152e2ae036180904f8af28fda756241e18dfc53be",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/build-1024.smc",
+    "bytes": 313,
+    "original_sha256": "6f8265801c4a24fba4742b8296f6ad150286c254a624a5eca324feaade043ade",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/build-128.smc",
+    "bytes": 313,
+    "original_sha256": "066301554a1a34abf2c5ecacb14d1710626c50346f0c1812be051a45e450f56c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/build-16.smc",
+    "bytes": 313,
+    "original_sha256": "6abf062bbdb6f590c11a1a9e4d4e0975d0bc3bb375db9a0d7cecc7485248f895",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/build-16384.smc",
+    "bytes": 313,
+    "original_sha256": "0a0bbefd62722270cb868aa90063185f4e9b3fb114653f3a9152b8413f5a9ac3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/build-32768.smc",
+    "bytes": 313,
+    "original_sha256": "d500024cf1f62bd90242df8c2ac700ec264dd3ddd8c620abd99d31ded79b87fb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/build-4096.smc",
+    "bytes": 313,
+    "original_sha256": "7cadb4dc29d72f7338886b4fb2b8e703251248d3bd6c9474733d7475d7048462",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/build-8192.smc",
+    "bytes": 313,
+    "original_sha256": "6a807524a1979b17f02eafa44688881515b29f86f312800463c881e41dcc7275",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/replace-1024.smc",
+    "bytes": 464,
+    "original_sha256": "b1623e1dafa85503f0c90c00cdf3389f9b3c71940c6e66c7fc8b11c5597e275c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/replace-128.smc",
+    "bytes": 464,
+    "original_sha256": "38970a68eb6b72efbae1bde12b6f07e50fa7df35a8bea8dd676f459f4ea5e195",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/replace-16.smc",
+    "bytes": 464,
+    "original_sha256": "dc1252bfd0cf05bfd68d420d45894cb736141de0aace9d8ce40d6e612b7b1b9e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/replace-16384.smc",
+    "bytes": 464,
+    "original_sha256": "8abf3f0c8e6dd78e474e1a25ca2dded38e7e5e508dd3a1ec66e8dfaf39f31c87",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/replace-32768.smc",
+    "bytes": 464,
+    "original_sha256": "5b46d626dde2ff3d7859246b958b42a33f2998a8194c6f724bb1a7e1fa5c98e4",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/replace-4096.smc",
+    "bytes": 464,
+    "original_sha256": "571ac089ed3dd77edf50739a5c03cc0ba939202d5f64e32bd0b33b55add19356",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/replace-8192.smc",
+    "bytes": 464,
+    "original_sha256": "0b3976e48844d844832097f2a6daa2bf6329707cf5a58044e32666cd08d471a9",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/prototype/snapshot-4096.smc",
+    "bytes": 551,
+    "original_sha256": "d3dde1969fe492923337cbd44367f251f82aa98998917365c28441cd404bf8ab",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/build-1024.smc",
+    "bytes": 313,
+    "original_sha256": "6f8265801c4a24fba4742b8296f6ad150286c254a624a5eca324feaade043ade",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/build-128.smc",
+    "bytes": 313,
+    "original_sha256": "066301554a1a34abf2c5ecacb14d1710626c50346f0c1812be051a45e450f56c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/build-16.smc",
+    "bytes": 313,
+    "original_sha256": "6abf062bbdb6f590c11a1a9e4d4e0975d0bc3bb375db9a0d7cecc7485248f895",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/build-16384.smc",
+    "bytes": 313,
+    "original_sha256": "0a0bbefd62722270cb868aa90063185f4e9b3fb114653f3a9152b8413f5a9ac3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/build-32768.smc",
+    "bytes": 313,
+    "original_sha256": "d500024cf1f62bd90242df8c2ac700ec264dd3ddd8c620abd99d31ded79b87fb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/build-4096.smc",
+    "bytes": 313,
+    "original_sha256": "7cadb4dc29d72f7338886b4fb2b8e703251248d3bd6c9474733d7475d7048462",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/build-8192.smc",
+    "bytes": 313,
+    "original_sha256": "6a807524a1979b17f02eafa44688881515b29f86f312800463c881e41dcc7275",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/replace-1024.smc",
+    "bytes": 464,
+    "original_sha256": "b1623e1dafa85503f0c90c00cdf3389f9b3c71940c6e66c7fc8b11c5597e275c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/replace-128.smc",
+    "bytes": 464,
+    "original_sha256": "38970a68eb6b72efbae1bde12b6f07e50fa7df35a8bea8dd676f459f4ea5e195",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/replace-16.smc",
+    "bytes": 464,
+    "original_sha256": "dc1252bfd0cf05bfd68d420d45894cb736141de0aace9d8ce40d6e612b7b1b9e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/replace-4096.smc",
+    "bytes": 464,
+    "original_sha256": "571ac089ed3dd77edf50739a5c03cc0ba939202d5f64e32bd0b33b55add19356",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/replace-8192.smc",
+    "bytes": 464,
+    "original_sha256": "0b3976e48844d844832097f2a6daa2bf6329707cf5a58044e32666cd08d471a9",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "rvm002-local/reference/snapshot-4096.smc",
+    "bytes": 551,
+    "original_sha256": "d3dde1969fe492923337cbd44367f251f82aa98998917365c28441cd404bf8ab",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/active-after.json",
+    "bytes": 742,
+    "original_sha256": "13e5066f27a86d2c78ceba85ab0b0cafd85f7f98abd3b5949c5be6698488e110",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/active-before.json",
+    "bytes": 742,
+    "original_sha256": "13e5066f27a86d2c78ceba85ab0b0cafd85f7f98abd3b5949c5be6698488e110",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/CHECKPOINT.md",
+    "bytes": 3911,
+    "original_sha256": "70043819dd6a4db71a9f501f203a893fb82d2e3ec020d60d0ac66d0e54a42aea",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "wsl-p1-p2/environment-builds.json",
+    "bytes": 33287,
+    "original_sha256": "b64cee295f7f94e252b6857f7d136ccf5a9f6e6d72761a08ba99b20fb3668077",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/environment-extra.py",
+    "bytes": 448,
+    "original_sha256": "ecf279689267f3c788e38a61ba8585f5bb12e261dcd36aecc8fb8332276d080f",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/environment-final.txt",
+    "bytes": 407,
+    "original_sha256": "f3c12953eb97258c6efb6adcd9a37c14d53ede69b956dc198d0486175ad43aef",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/issue2030-comments.json",
+    "bytes": 31256,
+    "original_sha256": "1b3bb61a2cd7cbf8ae44bd920b34060b6be90587c6ead28ac4e05075e59aaa2e",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "wsl-p1-p2/remote-main-final.txt",
+    "bytes": 42,
+    "original_sha256": "1dff73b6dc8603b11e14378ab3e6b2776a1a5296f4a01e87508bf0795201eb6e",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/repository-preservation.json",
+    "bytes": 2894,
+    "original_sha256": "0581514d49c8eaca232d967ffc110bf8bd6c5fd46f4c6221f6e40000cc8a156a",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/supplemental-environment.json",
+    "bytes": 1733,
+    "original_sha256": "31db09d34dc90bc7cb5e5d01f38c5dd0072e498d31ad367cedd4dd0989ed680f",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/windows-power.json",
+    "bytes": 64,
+    "original_sha256": "0805ea9cb89e21c1f2a946d574fc41002bdd4ed668fe15a122829d000f76a640",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/wsl-version.txt",
+    "bytes": 278,
+    "original_sha256": "fc5fbfb1e3710b72e6429c525b3b27487df1d93de18a20699f42745c1625f2e0",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-lex_calls_1000-O0.smc",
+    "bytes": 767,
+    "original_sha256": "f135e0bd64244bffb293e0d6af716f68c329de56c3915e7f44552259d7df7e4a",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-lex_calls_1000-O1.smc",
+    "bytes": 757,
+    "original_sha256": "b8e1d64a28e45bd01fef14ee7cb22dc73009febfdbd2cc37a03a16b80a71d1c9",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-lex_calls_16000-O0.smc",
+    "bytes": 768,
+    "original_sha256": "b6fc08f86f53b1979bd8e2c55f2d73a965afbc2fcd4ea107ce67c3ffd9c7a2fd",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-lex_calls_32000-O0.smc",
+    "bytes": 768,
+    "original_sha256": "7bc3280422e32292c8b0da64728a1ffaa28d9f4b43076a03d0194928604a6e3f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-lex_calls_4000-O0.smc",
+    "bytes": 767,
+    "original_sha256": "cd26d4dc21e05ac3124415e709837c234bd04b9f921d7753f9d4762c1c788f8d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_get_1000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "473a117b3c39c1c568aec42ae6ba618abeae64557d5a7e7b3638ab14f157215b",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_get_1000-O1.smc",
+    "bytes": 521,
+    "original_sha256": "c663e4dc036bba638f17286dda4302c553603bcf919730817a01ec20a9e49ec2",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_get_16000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "8e0988e810be69e4893a1c0429a38922b1407002738422a1f19e44e5111094b8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_get_32000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "8e3b87c0cbd895ce0bf28d32ab177c98974bcd3f877e5b57f10230bf1276305d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_get_4000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "9192d7b22ad1e4c6b2219e2c42b06c0115101f5970babd794095c69bc5fa7d08",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_set_1000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "60a7df295be1af750826f648f4c9a875c66434c2776b042d04aae9e950f753ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_set_1000-O1.smc",
+    "bytes": 299,
+    "original_sha256": "60a7df295be1af750826f648f4c9a875c66434c2776b042d04aae9e950f753ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_set_16000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "2605d6daa6939eb253456cdef961b5ace8da164a25cf210f88fcb5f96cb15bff",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_set_32000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "5e8162ea49b261af8f344214b581da7445373822304c9daab950e14113023634",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_set_4000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "e0b87e296fdebd3215447b18969ec8408acbbfe568c81239441f7c5f30ade70c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_versions_1000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "6205fd82707b721965d813a26700864c8c449f5d78de650d3f2e7fee842773a8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_versions_1000-O1.smc",
+    "bytes": 543,
+    "original_sha256": "abccc25a2668b0b3bbb756991bcebd122951709bcca8fb04c53d94056e339c4f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_versions_16000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "c79d14085e71ce01ad0a8b760ed0a81e52300c8031da3f5e8bfac40756461943",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_versions_32000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "1f9e5f8ac7b908506406e12dc6264a910a7cf21174c822248347424ed7ef8553",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-map_versions_4000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "7c1984e084efb461e6659e8aba58d61a70534901451a85f23638293023abe19c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-record_with_1000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "99fe4f555476b9cc91b01f7c2809423c93188ef11b1380c379ba879d4f8172ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-record_with_1000-O1.smc",
+    "bytes": 470,
+    "original_sha256": "99fe4f555476b9cc91b01f7c2809423c93188ef11b1380c379ba879d4f8172ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-record_with_16000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "8432ca76f467ec16d0ed3c860e31f4ae1896fd96c911633945a522e3db8885dc",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-record_with_32000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "dbd6bb3f2c5c3c763bc85e939207cdbdf697c2cc08644e0a862db2046f59e519",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-record_with_4000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "8496852767c6e5148b953be802f3cb48c04d841bb3f482361008561a9d4edebb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_push_1000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "cf0653ddf725b2966b2b43b8ef181624b8b6d7c99293a9b9a2450d60ebd6c34d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_push_1000-O1.smc",
+    "bytes": 276,
+    "original_sha256": "cf0653ddf725b2966b2b43b8ef181624b8b6d7c99293a9b9a2450d60ebd6c34d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_push_16000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "84864efa910eadca03c94f7aceedc443426dbbecc12a47f24d487b1d09602b9c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_push_32000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "3f6b052266e896cf37ba01abdb43d690520406d73f006e3a4c91cd48cfa068ee",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_push_4000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "256a5021aa0b7e67b9dd2dc8d09e68fb61e85e11b0382567b6cb71cccf24b6e2",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_read_1000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "744d7d14a38608b20d0cf04b3d6682b1a5c75c741066e433f56cd639b57a69b5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_read_1000-O1.smc",
+    "bytes": 449,
+    "original_sha256": "744d7d14a38608b20d0cf04b3d6682b1a5c75c741066e433f56cd639b57a69b5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_read_16000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "caf5b903926d17261a909f4386da6f6f28a5c42d16cafe3680bed04b83910616",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_read_32000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "a7a1ec357824c23b8b1f9a8a69606485f0ed26005e3ecb7543030478402cf614",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-seq_read_4000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "bf5a6356bfbad198ecfe3f0b38baa322f22eaefa8efa91d4dafc36ec1cfc9a3e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state10_16000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "2eeb7903b0767fe16ac8d41d7ae0a04f6077a39738c0824976bf7691cea7946a",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state10_32000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "3c06198b36b8178dcaa8ca032613402b46b7a33e8019e271925d508ca2db3859",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state10_8000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "07ba6535190a03b5cb9764064dbc72c2a0941c20af2508124849c6f3a5cae06c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state5_16000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "cff32cb01ad9e72ca9a294e849225a10d8bd6e20d73e75c4e23eaa985a9b7ba3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state5_32000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "23816a59153799723d5dd985c5336766c6b88385f3cfeaf43acf03ae485a8dd3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state5_8000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "46cd0adff012c96fd5bbc09609395bb6da29d3eeef6253e7b7bf08cac9a35a8e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_map_1000-O0.smc",
+    "bytes": 574,
+    "original_sha256": "f6c29b87e8ad029160a98b97a840645148a6eb22374e187da6fe48e4a56bc996",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_map_1000-O1.smc",
+    "bytes": 574,
+    "original_sha256": "1575023e717666125636573a0943c78b883af1ddf93cae61efaf130a5b7e514e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_map_16000-O0.smc",
+    "bytes": 576,
+    "original_sha256": "003dc52eda1ed57ce09bb319ec5e82f4ea702a9f7eec1c04f1025ee162686c06",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_map_32000-O0.smc",
+    "bytes": 576,
+    "original_sha256": "6b42d653829830f73e0788cfca652ec839862d2db610cc827812cd65e78ba049",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_map_4000-O0.smc",
+    "bytes": 575,
+    "original_sha256": "82f8f819395440fd501b6269acffa1ce269ec96afff5c52089f0985ae272c3bb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_seq_1000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "3203893299d0a0a60b0648af8634c392eac5f1d79d752ec8feb9fecb97b755c5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_seq_1000-O1.smc",
+    "bytes": 395,
+    "original_sha256": "3203893299d0a0a60b0648af8634c392eac5f1d79d752ec8feb9fecb97b755c5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_seq_16000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "55a52cd8dde121f1c8f8090e2e63ebce70b5bcd3bce347af407370ec5b2dee3b",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_seq_32000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "986360e9ae3eab85ea6c6cdca39314776afea7119982d3f1e6b25266fff26ca3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-state_record_seq_4000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "4a36af6a60f55555b00dec1270a77b08d4420acfc6800d4c4196925d062edc30",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-text_scan_1000-O0.smc",
+    "bytes": 596,
+    "original_sha256": "b41159dc45e8c096e085774e1e59945d7957f755888f3707466927c13cc9bd9f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-text_scan_1000-O1.smc",
+    "bytes": 586,
+    "original_sha256": "c0cc5daa1c41721c6e1c16c6d55d5235c0840b8b21294b25886acfd9ce86ae59",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-text_scan_16000-O0.smc",
+    "bytes": 597,
+    "original_sha256": "1b8623ca43bac3f39fadd7bc71401a5f9f1f95ca72f34484466b49dcf76f4d0c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-text_scan_32000-O0.smc",
+    "bytes": 597,
+    "original_sha256": "d39318a9922690a1d57e1b60f5964144eb0f87595d63e1013ff61caec0dd80c6",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/baseline-text_scan_4000-O0.smc",
+    "bytes": 596,
+    "original_sha256": "d5e1ed2cf1568a007560844e0b9fc3b34babeab0936a92001c7224ba88c834d1",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-lex_calls_1000-O0.smc",
+    "bytes": 767,
+    "original_sha256": "f135e0bd64244bffb293e0d6af716f68c329de56c3915e7f44552259d7df7e4a",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-lex_calls_1000-O1.smc",
+    "bytes": 757,
+    "original_sha256": "b8e1d64a28e45bd01fef14ee7cb22dc73009febfdbd2cc37a03a16b80a71d1c9",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-lex_calls_16000-O0.smc",
+    "bytes": 768,
+    "original_sha256": "b6fc08f86f53b1979bd8e2c55f2d73a965afbc2fcd4ea107ce67c3ffd9c7a2fd",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-lex_calls_32000-O0.smc",
+    "bytes": 768,
+    "original_sha256": "7bc3280422e32292c8b0da64728a1ffaa28d9f4b43076a03d0194928604a6e3f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-lex_calls_4000-O0.smc",
+    "bytes": 767,
+    "original_sha256": "cd26d4dc21e05ac3124415e709837c234bd04b9f921d7753f9d4762c1c788f8d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_get_1000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "473a117b3c39c1c568aec42ae6ba618abeae64557d5a7e7b3638ab14f157215b",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_get_1000-O1.smc",
+    "bytes": 521,
+    "original_sha256": "c663e4dc036bba638f17286dda4302c553603bcf919730817a01ec20a9e49ec2",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_get_16000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "8e0988e810be69e4893a1c0429a38922b1407002738422a1f19e44e5111094b8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_get_32000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "8e3b87c0cbd895ce0bf28d32ab177c98974bcd3f877e5b57f10230bf1276305d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_get_4000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "9192d7b22ad1e4c6b2219e2c42b06c0115101f5970babd794095c69bc5fa7d08",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_set_1000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "60a7df295be1af750826f648f4c9a875c66434c2776b042d04aae9e950f753ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_set_1000-O1.smc",
+    "bytes": 299,
+    "original_sha256": "60a7df295be1af750826f648f4c9a875c66434c2776b042d04aae9e950f753ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_set_16000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "2605d6daa6939eb253456cdef961b5ace8da164a25cf210f88fcb5f96cb15bff",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_set_32000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "5e8162ea49b261af8f344214b581da7445373822304c9daab950e14113023634",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_set_4000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "e0b87e296fdebd3215447b18969ec8408acbbfe568c81239441f7c5f30ade70c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_versions_1000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "6205fd82707b721965d813a26700864c8c449f5d78de650d3f2e7fee842773a8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_versions_1000-O1.smc",
+    "bytes": 543,
+    "original_sha256": "abccc25a2668b0b3bbb756991bcebd122951709bcca8fb04c53d94056e339c4f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_versions_16000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "c79d14085e71ce01ad0a8b760ed0a81e52300c8031da3f5e8bfac40756461943",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_versions_32000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "1f9e5f8ac7b908506406e12dc6264a910a7cf21174c822248347424ed7ef8553",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-map_versions_4000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "7c1984e084efb461e6659e8aba58d61a70534901451a85f23638293023abe19c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-record_with_1000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "99fe4f555476b9cc91b01f7c2809423c93188ef11b1380c379ba879d4f8172ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-record_with_1000-O1.smc",
+    "bytes": 470,
+    "original_sha256": "99fe4f555476b9cc91b01f7c2809423c93188ef11b1380c379ba879d4f8172ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-record_with_16000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "8432ca76f467ec16d0ed3c860e31f4ae1896fd96c911633945a522e3db8885dc",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-record_with_32000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "dbd6bb3f2c5c3c763bc85e939207cdbdf697c2cc08644e0a862db2046f59e519",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-record_with_4000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "8496852767c6e5148b953be802f3cb48c04d841bb3f482361008561a9d4edebb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_push_1000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "cf0653ddf725b2966b2b43b8ef181624b8b6d7c99293a9b9a2450d60ebd6c34d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_push_1000-O1.smc",
+    "bytes": 276,
+    "original_sha256": "cf0653ddf725b2966b2b43b8ef181624b8b6d7c99293a9b9a2450d60ebd6c34d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_push_16000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "84864efa910eadca03c94f7aceedc443426dbbecc12a47f24d487b1d09602b9c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_push_32000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "3f6b052266e896cf37ba01abdb43d690520406d73f006e3a4c91cd48cfa068ee",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_push_4000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "256a5021aa0b7e67b9dd2dc8d09e68fb61e85e11b0382567b6cb71cccf24b6e2",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_read_1000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "744d7d14a38608b20d0cf04b3d6682b1a5c75c741066e433f56cd639b57a69b5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_read_1000-O1.smc",
+    "bytes": 449,
+    "original_sha256": "744d7d14a38608b20d0cf04b3d6682b1a5c75c741066e433f56cd639b57a69b5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_read_16000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "caf5b903926d17261a909f4386da6f6f28a5c42d16cafe3680bed04b83910616",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_read_32000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "a7a1ec357824c23b8b1f9a8a69606485f0ed26005e3ecb7543030478402cf614",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-seq_read_4000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "bf5a6356bfbad198ecfe3f0b38baa322f22eaefa8efa91d4dafc36ec1cfc9a3e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state10_16000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "2eeb7903b0767fe16ac8d41d7ae0a04f6077a39738c0824976bf7691cea7946a",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state10_32000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "3c06198b36b8178dcaa8ca032613402b46b7a33e8019e271925d508ca2db3859",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state10_8000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "07ba6535190a03b5cb9764064dbc72c2a0941c20af2508124849c6f3a5cae06c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state5_16000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "cff32cb01ad9e72ca9a294e849225a10d8bd6e20d73e75c4e23eaa985a9b7ba3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state5_32000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "23816a59153799723d5dd985c5336766c6b88385f3cfeaf43acf03ae485a8dd3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state5_8000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "46cd0adff012c96fd5bbc09609395bb6da29d3eeef6253e7b7bf08cac9a35a8e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_map_1000-O0.smc",
+    "bytes": 574,
+    "original_sha256": "f6c29b87e8ad029160a98b97a840645148a6eb22374e187da6fe48e4a56bc996",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_map_1000-O1.smc",
+    "bytes": 574,
+    "original_sha256": "1575023e717666125636573a0943c78b883af1ddf93cae61efaf130a5b7e514e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_map_16000-O0.smc",
+    "bytes": 576,
+    "original_sha256": "003dc52eda1ed57ce09bb319ec5e82f4ea702a9f7eec1c04f1025ee162686c06",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_map_32000-O0.smc",
+    "bytes": 576,
+    "original_sha256": "6b42d653829830f73e0788cfca652ec839862d2db610cc827812cd65e78ba049",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_map_4000-O0.smc",
+    "bytes": 575,
+    "original_sha256": "82f8f819395440fd501b6269acffa1ce269ec96afff5c52089f0985ae272c3bb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_seq_1000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "3203893299d0a0a60b0648af8634c392eac5f1d79d752ec8feb9fecb97b755c5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_seq_1000-O1.smc",
+    "bytes": 395,
+    "original_sha256": "3203893299d0a0a60b0648af8634c392eac5f1d79d752ec8feb9fecb97b755c5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_seq_16000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "55a52cd8dde121f1c8f8090e2e63ebce70b5bcd3bce347af407370ec5b2dee3b",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_seq_32000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "986360e9ae3eab85ea6c6cdca39314776afea7119982d3f1e6b25266fff26ca3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-state_record_seq_4000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "4a36af6a60f55555b00dec1270a77b08d4420acfc6800d4c4196925d062edc30",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-text_scan_1000-O0.smc",
+    "bytes": 596,
+    "original_sha256": "b41159dc45e8c096e085774e1e59945d7957f755888f3707466927c13cc9bd9f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-text_scan_1000-O1.smc",
+    "bytes": 586,
+    "original_sha256": "c0cc5daa1c41721c6e1c16c6d55d5235c0840b8b21294b25886acfd9ce86ae59",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-text_scan_16000-O0.smc",
+    "bytes": 597,
+    "original_sha256": "1b8623ca43bac3f39fadd7bc71401a5f9f1f95ca72f34484466b49dcf76f4d0c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-text_scan_32000-O0.smc",
+    "bytes": 597,
+    "original_sha256": "d39318a9922690a1d57e1b60f5964144eb0f87595d63e1013ff61caec0dd80c6",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p1-text_scan_4000-O0.smc",
+    "bytes": 596,
+    "original_sha256": "d5e1ed2cf1568a007560844e0b9fc3b34babeab0936a92001c7224ba88c834d1",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-lex_calls_1000-O0.smc",
+    "bytes": 767,
+    "original_sha256": "f135e0bd64244bffb293e0d6af716f68c329de56c3915e7f44552259d7df7e4a",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-lex_calls_1000-O1.smc",
+    "bytes": 757,
+    "original_sha256": "b8e1d64a28e45bd01fef14ee7cb22dc73009febfdbd2cc37a03a16b80a71d1c9",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-lex_calls_16000-O0.smc",
+    "bytes": 768,
+    "original_sha256": "b6fc08f86f53b1979bd8e2c55f2d73a965afbc2fcd4ea107ce67c3ffd9c7a2fd",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-lex_calls_32000-O0.smc",
+    "bytes": 768,
+    "original_sha256": "7bc3280422e32292c8b0da64728a1ffaa28d9f4b43076a03d0194928604a6e3f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-lex_calls_4000-O0.smc",
+    "bytes": 767,
+    "original_sha256": "cd26d4dc21e05ac3124415e709837c234bd04b9f921d7753f9d4762c1c788f8d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_get_1000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "473a117b3c39c1c568aec42ae6ba618abeae64557d5a7e7b3638ab14f157215b",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_get_1000-O1.smc",
+    "bytes": 521,
+    "original_sha256": "c663e4dc036bba638f17286dda4302c553603bcf919730817a01ec20a9e49ec2",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_get_16000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "8e0988e810be69e4893a1c0429a38922b1407002738422a1f19e44e5111094b8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_get_32000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "8e3b87c0cbd895ce0bf28d32ab177c98974bcd3f877e5b57f10230bf1276305d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_get_4000-O0.smc",
+    "bytes": 526,
+    "original_sha256": "9192d7b22ad1e4c6b2219e2c42b06c0115101f5970babd794095c69bc5fa7d08",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_set_1000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "60a7df295be1af750826f648f4c9a875c66434c2776b042d04aae9e950f753ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_set_1000-O1.smc",
+    "bytes": 299,
+    "original_sha256": "60a7df295be1af750826f648f4c9a875c66434c2776b042d04aae9e950f753ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_set_16000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "2605d6daa6939eb253456cdef961b5ace8da164a25cf210f88fcb5f96cb15bff",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_set_32000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "5e8162ea49b261af8f344214b581da7445373822304c9daab950e14113023634",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_set_4000-O0.smc",
+    "bytes": 299,
+    "original_sha256": "e0b87e296fdebd3215447b18969ec8408acbbfe568c81239441f7c5f30ade70c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_versions_1000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "6205fd82707b721965d813a26700864c8c449f5d78de650d3f2e7fee842773a8",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_versions_1000-O1.smc",
+    "bytes": 543,
+    "original_sha256": "abccc25a2668b0b3bbb756991bcebd122951709bcca8fb04c53d94056e339c4f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_versions_16000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "c79d14085e71ce01ad0a8b760ed0a81e52300c8031da3f5e8bfac40756461943",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_versions_32000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "1f9e5f8ac7b908506406e12dc6264a910a7cf21174c822248347424ed7ef8553",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-map_versions_4000-O0.smc",
+    "bytes": 543,
+    "original_sha256": "7c1984e084efb461e6659e8aba58d61a70534901451a85f23638293023abe19c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-record_with_1000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "99fe4f555476b9cc91b01f7c2809423c93188ef11b1380c379ba879d4f8172ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-record_with_1000-O1.smc",
+    "bytes": 470,
+    "original_sha256": "99fe4f555476b9cc91b01f7c2809423c93188ef11b1380c379ba879d4f8172ec",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-record_with_16000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "8432ca76f467ec16d0ed3c860e31f4ae1896fd96c911633945a522e3db8885dc",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-record_with_32000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "dbd6bb3f2c5c3c763bc85e939207cdbdf697c2cc08644e0a862db2046f59e519",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-record_with_4000-O0.smc",
+    "bytes": 470,
+    "original_sha256": "8496852767c6e5148b953be802f3cb48c04d841bb3f482361008561a9d4edebb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_push_1000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "cf0653ddf725b2966b2b43b8ef181624b8b6d7c99293a9b9a2450d60ebd6c34d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_push_1000-O1.smc",
+    "bytes": 276,
+    "original_sha256": "cf0653ddf725b2966b2b43b8ef181624b8b6d7c99293a9b9a2450d60ebd6c34d",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_push_16000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "84864efa910eadca03c94f7aceedc443426dbbecc12a47f24d487b1d09602b9c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_push_32000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "3f6b052266e896cf37ba01abdb43d690520406d73f006e3a4c91cd48cfa068ee",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_push_4000-O0.smc",
+    "bytes": 276,
+    "original_sha256": "256a5021aa0b7e67b9dd2dc8d09e68fb61e85e11b0382567b6cb71cccf24b6e2",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_read_1000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "744d7d14a38608b20d0cf04b3d6682b1a5c75c741066e433f56cd639b57a69b5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_read_1000-O1.smc",
+    "bytes": 449,
+    "original_sha256": "744d7d14a38608b20d0cf04b3d6682b1a5c75c741066e433f56cd639b57a69b5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_read_16000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "caf5b903926d17261a909f4386da6f6f28a5c42d16cafe3680bed04b83910616",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_read_32000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "a7a1ec357824c23b8b1f9a8a69606485f0ed26005e3ecb7543030478402cf614",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-seq_read_4000-O0.smc",
+    "bytes": 449,
+    "original_sha256": "bf5a6356bfbad198ecfe3f0b38baa322f22eaefa8efa91d4dafc36ec1cfc9a3e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state10_16000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "2eeb7903b0767fe16ac8d41d7ae0a04f6077a39738c0824976bf7691cea7946a",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state10_32000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "3c06198b36b8178dcaa8ca032613402b46b7a33e8019e271925d508ca2db3859",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state10_8000-O0.smc",
+    "bytes": 560,
+    "original_sha256": "07ba6535190a03b5cb9764064dbc72c2a0941c20af2508124849c6f3a5cae06c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state5_16000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "cff32cb01ad9e72ca9a294e849225a10d8bd6e20d73e75c4e23eaa985a9b7ba3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state5_32000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "23816a59153799723d5dd985c5336766c6b88385f3cfeaf43acf03ae485a8dd3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state5_8000-O0.smc",
+    "bytes": 459,
+    "original_sha256": "46cd0adff012c96fd5bbc09609395bb6da29d3eeef6253e7b7bf08cac9a35a8e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_map_1000-O0.smc",
+    "bytes": 574,
+    "original_sha256": "f6c29b87e8ad029160a98b97a840645148a6eb22374e187da6fe48e4a56bc996",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_map_1000-O1.smc",
+    "bytes": 574,
+    "original_sha256": "1575023e717666125636573a0943c78b883af1ddf93cae61efaf130a5b7e514e",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_map_16000-O0.smc",
+    "bytes": 576,
+    "original_sha256": "003dc52eda1ed57ce09bb319ec5e82f4ea702a9f7eec1c04f1025ee162686c06",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_map_32000-O0.smc",
+    "bytes": 576,
+    "original_sha256": "6b42d653829830f73e0788cfca652ec839862d2db610cc827812cd65e78ba049",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_map_4000-O0.smc",
+    "bytes": 575,
+    "original_sha256": "82f8f819395440fd501b6269acffa1ce269ec96afff5c52089f0985ae272c3bb",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_seq_1000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "3203893299d0a0a60b0648af8634c392eac5f1d79d752ec8feb9fecb97b755c5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_seq_1000-O1.smc",
+    "bytes": 395,
+    "original_sha256": "3203893299d0a0a60b0648af8634c392eac5f1d79d752ec8feb9fecb97b755c5",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_seq_16000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "55a52cd8dde121f1c8f8090e2e63ebce70b5bcd3bce347af407370ec5b2dee3b",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_seq_32000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "986360e9ae3eab85ea6c6cdca39314776afea7119982d3f1e6b25266fff26ca3",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-state_record_seq_4000-O0.smc",
+    "bytes": 395,
+    "original_sha256": "4a36af6a60f55555b00dec1270a77b08d4420acfc6800d4c4196925d062edc30",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-text_scan_1000-O0.smc",
+    "bytes": 596,
+    "original_sha256": "b41159dc45e8c096e085774e1e59945d7957f755888f3707466927c13cc9bd9f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-text_scan_1000-O1.smc",
+    "bytes": 586,
+    "original_sha256": "c0cc5daa1c41721c6e1c16c6d55d5235c0840b8b21294b25886acfd9ce86ae59",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-text_scan_16000-O0.smc",
+    "bytes": 597,
+    "original_sha256": "1b8623ca43bac3f39fadd7bc71401a5f9f1f95ca72f34484466b49dcf76f4d0c",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-text_scan_32000-O0.smc",
+    "bytes": 597,
+    "original_sha256": "d39318a9922690a1d57e1b60f5964144eb0f87595d63e1013ff61caec0dd80c6",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "wsl-p1-p2/artifacts/p2-text_scan_4000-O0.smc",
+    "bytes": 596,
+    "original_sha256": "d5e1ed2cf1568a007560844e0b9fc3b34babeab0936a92001c7224ba88c834d1",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "p3-calls/A-main.smc",
+    "bytes": 768,
+    "original_sha256": "7bc3280422e32292c8b0da64728a1ffaa28d9f4b43076a03d0194928604a6e3f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "p3-calls/active-before.json",
+    "bytes": 477,
+    "original_sha256": "0299b4135d340170cc3614375e48681ad2990808df2f84ace44ad30cbaf044d7",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "p3-calls/B-p3.smc",
+    "bytes": 768,
+    "original_sha256": "7bc3280422e32292c8b0da64728a1ffaa28d9f4b43076a03d0194928604a6e3f",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "p3-calls/baseline-provenance.json",
+    "bytes": 759,
+    "original_sha256": "4a8a957660c4027e63cff79aa3c8782b1b13a49bc94d8655534d48f16ad08402",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "p3-calls/CHECKPOINT.md",
+    "bytes": 4682,
+    "original_sha256": "ae27eec1506c079686e934c1fe5cac110e3833a9bd5ffbe083f4eaeb0f8fd23b",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "p3-calls/draft-body.md",
+    "bytes": 6903,
+    "original_sha256": "f3e65c98c75273f280eaf5cc069bfe389735ec22c059ad1d0372fe052f2ceeaf",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "p3-calls/environment.json",
+    "bytes": 1358,
+    "original_sha256": "f5a1cc587b37f174b0f7b08eee3512f5bc74d53e8ff3c341303093fcc74ae6c6",
+    "reason": "environment/operational snapshot: excluded; curated host/toolchain provenance retained in research report"
+  },
+  {
+    "source": "p3-calls/harness-base.ps1",
+    "bytes": 11623,
+    "original_sha256": "a7c4a21b92cdbdbdcb23e77f192c7685ba394daba556bcce3d3b33539c6a9588",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "p3-calls/invalid.smc",
+    "bytes": 11,
+    "original_sha256": "0cf0e167f60ac98fa13a58e6f71625fa77017905432f1faf7d904cbed871fe85",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  },
+  {
+    "source": "p3-calls/merge-go-preflight.json",
+    "bytes": 8402,
+    "original_sha256": "10cf13d59a44349665532d9dd38cc26c1bd9786f6a2a05bd1935e25a30ad5822",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "p3-calls/merge-go-repository-policy.json",
+    "bytes": 58,
+    "original_sha256": "0ad170df2f9e0325264443936416eceee501e9f33b3d15418e6c2a0811c8d517",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "p3-calls/merge-go-review-state.json",
+    "bytes": 127,
+    "original_sha256": "32207ff00b7f158efe74560c933033315bf29987c3727f56e408495e34eba683",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "p3-calls/PLAN.md",
+    "bytes": 1362,
+    "original_sha256": "12539b1ef2d6637a21473f538aeade35aa9619c638e42368f92bbb2eaa3204b7",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "p3-calls/pr-2049.json",
+    "bytes": 7824,
+    "original_sha256": "4833297aae80fca266b8d74f5a3e60e50f2021b7b1809e8799df35919ac34f22",
+    "reason": "redundant operational/API/governance material; research reports, sources and result summaries retained"
+  },
+  {
+    "source": "containers/SHF-R-WSL-20261015-artifacts.zip",
+    "bytes": 1674221,
+    "original_sha256": "455dcbae77cf8217c75c0fff1589ea59a18b7922a711f35e6f3b55bd39dceb7a",
+    "reason": "generated binary or unsanitized container; source/identity preserved separately, not needed as public payload"
+  }
+]

@@ -1,0 +1,11 @@
+record Lx { toks: Sequence(i32), pos: i32 }
+fn main() {
+    let mut st: Lx = Lx { toks: [], pos: 0 };
+    let mut i: i32 = 0;
+    while i < 1000 {
+        st = st with { toks: push(st.toks, i), pos: st.pos + 1 };
+        i = i + 1;
+    }
+    assert(len(st.toks) == 1000);
+    return;
+}

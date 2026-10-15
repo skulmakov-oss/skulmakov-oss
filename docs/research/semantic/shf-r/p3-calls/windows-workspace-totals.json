@@ -1,0 +1,7 @@
+{
+  "command": "cargo test --workspace --quiet",
+  "suites": 365,
+  "passed": 5483,
+  "failed": 0,
+  "ignored": 14
+}

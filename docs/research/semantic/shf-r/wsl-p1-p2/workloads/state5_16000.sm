@@ -1,0 +1,17 @@
+record State5 {
+toks: Sequence(i32),
+f1: i32,
+f2: i32,
+f3: i32,
+pos: i32
+}
+fn main() {
+let mut st: State5 = State5 { toks: [], f1: 10, f2: 20, f3: 30, pos: 0 };
+let mut i: i32 = 0;
+while i < 16000 {
+st = st with { toks: push(st.toks, i), pos: st.pos + 1 };
+i = i + 1;
+}
+assert(len(st.toks) == 16000);
+return;
+}

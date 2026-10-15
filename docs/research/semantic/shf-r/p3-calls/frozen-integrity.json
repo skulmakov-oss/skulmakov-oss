@@ -1,0 +1,12 @@
+[
+  {
+    "root": "/home/WSL_USER/shf-r-comparison-20261015",
+    "inputs": 54,
+    "mismatches": []
+  },
+  {
+    "root": "/mnt/c/Users/OWNER_USER/Documents/Codex/SHF-R-WSL-20261015",
+    "inputs": 54,
+    "mismatches": []
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "label": "red-existing-binary",
+  "command": [
+    "/home/WSL_USER/shf-p3-20261016/target/release/deps/shf_r_execution_envelope-c2a7b3ef7379496d",
+    "--exact",
+    "p3_explicit_calls_exact_boundary_and_limit_plus_one"
+  ],
+  "exit": 101,
+  "seconds": 0.06848617700006798,
+  "target": "/home/WSL_USER/shf-p3-20261016/target"
+}

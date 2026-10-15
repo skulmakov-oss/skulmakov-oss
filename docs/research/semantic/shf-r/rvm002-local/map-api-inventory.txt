@@ -1,0 +1,16 @@
+crates\sm-vm\src\semcode_vm.rs:57:    Map(Vec<(MapKey, Value)>),
+crates\sm-vm\src\semcode_vm.rs:2743:                set_reg(vm, frame_idx, dst, Value::Map(Vec::new()))?;
+crates\sm-vm\src\semcode_vm.rs:2751:                let Value::Map(pairs) = map_val else {
+crates\sm-vm\src\semcode_vm.rs:2767:                let Value::Map(pairs) = map_val else {
+crates\sm-vm\src\semcode_vm.rs:2786:                let Value::Map(pairs) = map_val else {
+crates\sm-vm\src\semcode_vm.rs:2794:                set_reg(vm, frame_idx, dst, Value::Map(new_pairs))?;
+crates\sm-vm\src\semcode_vm.rs:3273:        Value::Map(_) => Err(RuntimeError::TypeMismatchRuntime(
+crates\sm-vm\src\semcode_vm.rs:3328:        Value::Map(_) => CallableValueFamily::Map,
+crates\sm-vm\src\semcode_vm.rs:4210:        (Value::Map(_), Value::Map(_)) => Err(RuntimeError::TypeMismatchRuntime(
+crates\sm-vm\src\semcode_vm.rs:8146:        let map = Value::Map(vec![(
+crates\sm-vm\src\semcode_vm.rs:8172:                Value::Map(vec![(MapKey::Bool(true), Value::Text("old".into()))]),
+crates\sm-vm\src\semcode_vm.rs:8178:        if let Value::Map(nested) = &mut updated[0].1 {
+crates\sm-vm\src\semcode_vm.rs:8183:            Value::Map(vec![(MapKey::Bool(true), Value::Text("old".into()))])
+crates\sm-vm\src\semcode_vm.rs:8186:            Value::Map(original.clone()),
+crates\sm-vm\src\semcode_vm.rs:8187:            Value::Map(original.into_iter().rev().collect())
+crates\sm-vm\examples\map_cost.rs:127:            let map = Value::Map(

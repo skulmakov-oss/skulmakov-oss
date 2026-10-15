@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-10-15T19:21:31.748064+00:00",
+  "runtime_invocations": 726,
+  "phase_invocations": 1224,
+  "normalized_completed_case_groups": 46,
+  "normalized_difference_groups": [],
+  "within_revision_artifact_groups_stable": 138,
+  "cross_revision_artifact_groups_identical": 46,
+  "toolchains": {
+    "baseline": "[toolchain]\nchannel = \"1.97.1\"\nprofile = \"minimal\"\ncomponents = [\"rustfmt\", \"clippy\"]\n",
+    "p1": "[toolchain]\nchannel = \"1.97.1\"\nprofile = \"minimal\"\ncomponents = [\"rustfmt\", \"clippy\"]\n",
+    "p2": "[toolchain]\nchannel = \"1.97.1\"\nprofile = \"minimal\"\ncomponents = [\"rustfmt\", \"clippy\"]\n"
+  },
+  "report_sha256": "23d52a7ca74c29bdc58f22f6bcc4bc88e764211f124aa2d3b506be8d4cd6992d"
+}

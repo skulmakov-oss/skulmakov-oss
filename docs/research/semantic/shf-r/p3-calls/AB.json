@@ -1,0 +1,134 @@
+[
+  {
+    "name": "A-main",
+    "command": [
+      "/home/WSL_USER/shf-r-comparison-20261015/target-p2/release/smc-cli",
+      "run",
+      "/home/WSL_USER/shf-r-comparison-20261015/workloads/lex_calls_32000.sm",
+      "--profile",
+      "cli-read-only",
+      "--root",
+      "/home/WSL_USER/shf-r-comparison-20261015/workloads/root",
+      "--envelope",
+      "trusted-compiler",
+      "--max-steps",
+      "200000000",
+      "--metrics",
+      "json"
+    ],
+    "exit": 1,
+    "wall_seconds": 0.3232206799998494,
+    "binary_sha256": "68459dc0778f78700d245352b4cde5cb4d26f8e5a5ad6947bb16d591d9c1a941",
+    "source_sha256": "e52cb563a561599ae4bc6a7c123f263f8bab57c1065e635f92e7d2dad96dd820",
+    "input_sha256": "206d78291eecc6e0a6a343b057f91d0cf84c79e59be92a86dae5440fdfd38c4a",
+    "metrics": [
+      {
+        "schema": "semantic.run.metrics/0.1",
+        "envelope": "trusted-compiler",
+        "effective_quotas": {
+          "max_steps": 200000000,
+          "max_calls": 16384,
+          "max_frames": 256,
+          "max_stack_depth": 256,
+          "max_effect_calls": 1024
+        },
+        "phase_reached": "execute",
+        "execution_started": true,
+        "outcome": "quota_exceeded",
+        "counters": {
+          "steps": 559809,
+          "calls": 16384,
+          "peak_frames": 2,
+          "effect_calls": 1
+        },
+        "quota_exceeded": {
+          "kind": "Calls",
+          "limit": 16384,
+          "used": 16385
+        },
+        "error": "quota exceeded: Calls limit=16384 used=16385",
+        "nondeterministic": {
+          "wall_ms": 291.894699
+        }
+      }
+    ],
+    "compile_command": [
+      "/home/WSL_USER/shf-r-comparison-20261015/target-p2/release/smc-cli",
+      "compile",
+      "/home/WSL_USER/shf-r-comparison-20261015/workloads/lex_calls_32000.sm",
+      "-o",
+      "/mnt/c/Users/OWNER_USER/Documents/Codex/SHF-P3-20261016/A-main.smc",
+      "--opt-level",
+      "O0"
+    ],
+    "compile_exit": 0,
+    "verify_exit": 0,
+    "artifact_sha256": "7bc3280422e32292c8b0da64728a1ffaa28d9f4b43076a03d0194928604a6e3f",
+    "oracle_digits": 5332
+  },
+  {
+    "name": "B-p3",
+    "command": [
+      "/home/WSL_USER/shf-p3-20261016/target/release/smc-cli",
+      "run",
+      "/home/WSL_USER/shf-r-comparison-20261015/workloads/lex_calls_32000.sm",
+      "--profile",
+      "cli-read-only",
+      "--root",
+      "/home/WSL_USER/shf-r-comparison-20261015/workloads/root",
+      "--envelope",
+      "trusted-compiler",
+      "--max-steps",
+      "200000000",
+      "--metrics",
+      "json",
+      "--max-calls",
+      "1000000"
+    ],
+    "exit": 0,
+    "wall_seconds": 0.580067181000004,
+    "binary_sha256": "bc7c32a4c78da861e7940f84d34047b3c09b6883a6bdf6e9c61a53fefc3e100e",
+    "source_sha256": "e52cb563a561599ae4bc6a7c123f263f8bab57c1065e635f92e7d2dad96dd820",
+    "input_sha256": "206d78291eecc6e0a6a343b057f91d0cf84c79e59be92a86dae5440fdfd38c4a",
+    "metrics": [
+      {
+        "schema": "semantic.run.metrics/0.1",
+        "envelope": "trusted-compiler",
+        "effective_quotas": {
+          "max_steps": 200000000,
+          "max_calls": 1000000,
+          "max_frames": 256,
+          "max_stack_depth": 256,
+          "max_effect_calls": 1024
+        },
+        "phase_reached": "execute",
+        "execution_started": true,
+        "outcome": "ok",
+        "counters": {
+          "steps": 1093082,
+          "calls": 31992,
+          "peak_frames": 2,
+          "effect_calls": 1
+        },
+        "quota_exceeded": null,
+        "error": null,
+        "nondeterministic": {
+          "wall_ms": 565.336716
+        }
+      }
+    ],
+    "compile_command": [
+      "/home/WSL_USER/shf-p3-20261016/target/release/smc-cli",
+      "compile",
+      "/home/WSL_USER/shf-r-comparison-20261015/workloads/lex_calls_32000.sm",
+      "-o",
+      "/mnt/c/Users/OWNER_USER/Documents/Codex/SHF-P3-20261016/B-p3.smc",
+      "--opt-level",
+      "O0"
+    ],
+    "compile_exit": 0,
+    "verify_exit": 0,
+    "artifact_sha256": "7bc3280422e32292c8b0da64728a1ffaa28d9f4b43076a03d0194928604a6e3f",
+    "oracle_digits": 5332
+  }
+]
