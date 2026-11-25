@@ -36,7 +36,7 @@ C1 (Semantic compiler, SemCode) ── compiles S ──▶ C2 ── compiles S
 C1 = C2 = C3   byte-identical, 339,746 bytes
 ```
 
-| | |
+| Item | Value |
 |---|---|
 | Compiler source `S` | nine `.sm` files written in Semantic |
 | Fixed point | `C1 = C2 = C3`, SHA-256 `2bfd56e1…e939` (`byte-equality-v1`) |
