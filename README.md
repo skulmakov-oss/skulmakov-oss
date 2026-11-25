@@ -25,6 +25,35 @@ controlled execution and evidence-driven AI-agent governance.**
 
 ---
 
+## Self-Hosting Milestone — 2026-11-25
+
+Semantic development began on **2026-02-08**. **290 days later**, on **2026-11-25**, the Semantic compiler written in Semantic compiled its own source to a **byte-identical fixed point**:
+
+```text
+C0 (Rust reference compiler) ── compiles S ──▶ C1
+C1 (Semantic compiler, SemCode) ── compiles S ──▶ C2 ── compiles S ──▶ C3
+
+C1 = C2 = C3   byte-identical, 339,746 bytes
+```
+
+| | |
+|---|---|
+| Compiler source `S` | nine `.sm` files written in Semantic |
+| Fixed point | `C1 = C2 = C3`, SHA-256 `2bfd56e1…e939` (`byte-equality-v1`) |
+| Differential corpus | 140 / 140 fixtures; C1 and C2 emit SemCode byte-identical to the reference compiler for every accepted program |
+| Contract | Bootstrap Contract v4: canonical source set, pinned reference and executor, bounded execution envelope |
+| Admission | verifier-first: every generation is admitted by `sm-verify` before it runs |
+
+**Scope, stated plainly:**
+- **Platform:** qualified locally on Windows x64 by a single operator.
+- **Subset:** the compiler covers the Bootstrap Subset of the language, not the full language.
+- **Rust components:** the verifier and VM remain Rust (`sm-verify`, `sm-vm`).
+- **Bootstrap Seal:** in state **validated**. It is not yet independently reproduced or accepted.
+
+Details and evidence: [**Semantic-Language**](https://github.com/skulmakov-oss/Semantic-Language).
+
+---
+
 ## Semantic
 
 [**Semantic**](https://github.com/skulmakov-oss/Semantic) is a deterministic, verifier-first language platform for reasoning programs and explicit four-state logic.
@@ -59,14 +88,16 @@ Semantic treats uncertainty and contradiction as explicit computational states:
 
 | Project | Responsibility |
 |---|---|
-| [**Semantic**](https://github.com/skulmakov-oss/Semantic) | Language, compiler, semantic analysis, SemCode verifier and deterministic VM |
+| [**Semantic**](https://github.com/skulmakov-oss/Semantic) | Language, SemCode format, Rust reference compiler (C0), `sm-verify` verifier and deterministic VM |
+| [**Semantic-Language**](https://github.com/skulmakov-oss/Semantic-Language) | The Semantic compiler written in Semantic and its bootstrap qualification (self-hosting fixed point; Seal validated) |
+| [**Semantic-Dist**](https://github.com/skulmakov-oss/Semantic-Dist) | Native distribution and installer (Windows x64 Developer Preview of the Rust toolchain) |
 | [**CCL**](https://github.com/skulmakov-oss/CCL) | Deterministic governance and evidence-based admission for AI-agent software engineering |
 | [**Themis**](https://github.com/skulmakov-oss/Themis) | MCP contract runtime with verified state transitions and bounded capabilities |
 | [**Mission Control**](https://github.com/skulmakov-oss/Mission-Control) | Live 3D observability for semantic graphs, contracts, effects, conflicts and verdicts |
 | [**Prometheus**](https://github.com/skulmakov-oss/Prometheus) | Experimental Rust `no_std` operating-system foundation with deterministic event routing |
 | [**Admission Guardian**](https://github.com/skulmakov-oss/Admission-Guardian) | Local validation and admission boundary under active development |
 | [**Semantic TextMate Grammar**](https://github.com/skulmakov-oss/semantic-textmate-grammar) | Editor syntax support for the Semantic language |
-| [**Semantic-Agent**]([https://github.com/skulmakov-oss/Semantic-Agent) | Policy-bound verified execution agent for the Semantic platform.
+| [**Semantic-Agent**](https://github.com/skulmakov-oss/Semantic-Agent) | Policy-bound verified execution agent for the Semantic platform |
 
 ```mermaid
 flowchart TD
