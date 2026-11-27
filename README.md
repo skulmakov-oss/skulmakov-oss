@@ -55,6 +55,21 @@ Semantic treats uncertainty and contradiction as explicit computational states:
 
 ---
 
+## Semantic repositories and current release
+
+| Repository | Role | Status |
+|---|---|---|
+| [**Semantic**](https://github.com/skulmakov-oss/Semantic) | Language and SemCode authority: Rust reference compiler, verifier and deterministic VM | Source tag [`v1.3.0-rc.2`](https://github.com/skulmakov-oss/Semantic/tree/v1.3.0-rc.2) (`98f9db19`) |
+| [**Semantic-Language**](https://github.com/skulmakov-oss/Semantic-Language) | The compiler written in Semantic, and its bootstrap qualification | Self-hosting fixed point C1 = C2 under Bootstrap Contract v4; Bootstrap Seal **validated**, not independently reproduced or accepted |
+| [**Semantic-Dist**](https://github.com/skulmakov-oss/Semantic-Dist) | Native packaging, installer, provenance and four-target qualification | Publishes [v1.3.0-rc.2](https://github.com/skulmakov-oss/Semantic-Dist/releases/tag/v1.3.0-rc.2) |
+
+**Latest prerelease:** [v1.3.0-rc.2](https://github.com/skulmakov-oss/Semantic-Dist/releases/tag/v1.3.0-rc.2) is an unsigned **Windows x64 developer preview** (installer and portable CLI). It is not a stable release.
+- **Built from source:** the native test matrix passes on macOS arm64, Linux x86_64, Linux arm64 and Windows x64. Ignored and unsupported cases are listed in the release notes.
+- **Prebuilt binaries:** Windows x64 only.
+- **Install and uninstall:** verified on hosted CI runners only.
+
+---
+
 ## Ecosystem
 
 | Project | Responsibility |
